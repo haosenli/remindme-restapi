@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "aiaCLLWpiM4qLfnK1FdFkqrmtP4EpsVLHp9rNP3gUZViDemsvT0lvD851JyXqVUlqR0DwoTuB3UEW97sZyuxIA==",
+  "dgSpecHash": "8f87s6v2t/RUTZubxCkcrHB1mNt6S+fQTlT4h0eFFuv9waLDK6pUsG7tjQh3TtV8RX4oyo2k8vSRsYgfNEtnBQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\haose\\Documents\\Projects\\remindme-restapi\\RemindMeAPI\\RemindMeAPI.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\haose\\Documents\\Projects\\remindme-restapi\\RemindMeAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\haose\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\haose\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\haose\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.4\\swashbuckle.aspnetcore.6.1.4.nupkg.sha512",
+    "C:\\Users\\haose\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.4\\swashbuckle.aspnetcore.swagger.6.1.4.nupkg.sha512",
+    "C:\\Users\\haose\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.4\\swashbuckle.aspnetcore.swaggergen.6.1.4.nupkg.sha512",
+    "C:\\Users\\haose\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.4\\swashbuckle.aspnetcore.swaggerui.6.1.4.nupkg.sha512"
+  ],
   "logs": []
 }

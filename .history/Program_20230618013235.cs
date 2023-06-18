@@ -24,38 +24,7 @@ var reminders = new ReminderQueue();
 
 // Add endpoints
 app.MapGet("/", () => "Hello World!");
-app.MapPost("/add-reminder", (
-        string authorId, 
-        string messageChannelId, 
-        string messageContent
-    ) => 
-{
-    reminders.addReminder(authorId, messageChannelId, messageContent);
-});
-
-app.MapGet("/peek-reminder", () => 
-{
-    Reminder? r = reminders.peekReminder();
-    // Return empty JSON on null
-    if (r == null)
-    {
-        return new {};
-    } 
-    // Serialize Reminder
-    return r.Serialize();
-});
-
-app.MapGet("/pop-reminder", () => 
-{
-    Reminder? r = reminders.popReminder();
-    // Return empty JSON on null
-    if (r == null)
-    {
-        return new {};
-    } 
-    // Serialize Reminder
-    return r.Serialize();
-});
+app.MapGet("/add-reminder", () => "Hello World!");
 
 // Run app
 app.Run();

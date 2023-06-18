@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\haose\\Documents\\Projects\\remindme-restapi\\RemindMeAPI\\RemindMeAPI.csproj": {}
+    "C:\\Users\\haose\\Documents\\Projects\\remindme-restapi\\RemindMeAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\haose\\Documents\\Projects\\remindme-restapi\\RemindMeAPI\\RemindMeAPI.csproj": {
+    "C:\\Users\\haose\\Documents\\Projects\\remindme-restapi\\RemindMeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haose\\Documents\\Projects\\remindme-restapi\\RemindMeAPI\\RemindMeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\haose\\Documents\\Projects\\remindme-restapi\\RemindMeAPI.csproj",
         "projectName": "RemindMeAPI",
-        "projectPath": "C:\\Users\\haose\\Documents\\Projects\\remindme-restapi\\RemindMeAPI\\RemindMeAPI.csproj",
+        "projectPath": "C:\\Users\\haose\\Documents\\Projects\\remindme-restapi\\RemindMeAPI.csproj",
         "packagesPath": "C:\\Users\\haose\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haose\\Documents\\Projects\\remindme-restapi\\RemindMeAPI\\obj\\",
+        "outputPath": "C:\\Users\\haose\\Documents\\Projects\\remindme-restapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\haose\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -38,6 +38,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -45,17 +45,5 @@ app.MapGet("/peek-reminder", () =>
     return r.Serialize();
 });
 
-app.MapGet("/pop-reminder", () => 
-{
-    Reminder? r = reminders.popReminder();
-    // Return empty JSON on null
-    if (r == null)
-    {
-        return new {};
-    } 
-    // Serialize Reminder
-    return r.Serialize();
-});
-
 // Run app
 app.Run();
